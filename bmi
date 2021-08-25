@@ -1,0 +1,13 @@
+def bmi ():
+    height = input ('Enter your height in meters ')
+    weight = input ('Enter your weight in kilograms ')
+    result = (float(weight) / (float(height)**2))
+    print("Your body mass index "+str(result))
+    if result <18.5:
+        print('It is Low')
+    elif result > 18.5 and result < 25:
+        print('It is Medium')
+    else:
+        print('It is High')
+    print('You are brilliant anyway')
+bmi ()
